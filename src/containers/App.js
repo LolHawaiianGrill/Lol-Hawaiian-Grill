@@ -1,12 +1,11 @@
 import React from 'react';
+import {Router} from '../utilities/router';
 import '../styles/App.css';
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        Lol Hawaiian grill
-      </div>
+      <Router/>
     );
   }
 }
