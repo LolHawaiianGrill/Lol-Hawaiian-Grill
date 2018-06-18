@@ -1,24 +1,59 @@
-.App {
-  text-align: center; }
+* {
+  margin: 0px;
+  text-decoration: none; }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px; }
+.home .btn {
+  width: 200px;
+  height: 50px;
+  background-color: pink;
+  z-index: 99; }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white; }
+.home .drawer {
+  width: 217px; }
 
-.App-title {
-  font-size: 1.5em; }
+.flyout {
+  width: 217px; }
+  .flyout .flyoutClose {
+    z-index: 99;
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    margin-left: 20px;
+    margin-top: 48px; }
+  .flyout .contentContainer {
+    position: absolute; }
+    .flyout .contentContainer .logo {
+      margin-left: 51px;
+      margin-top: 94px;
+      width: 116px;
+      height: 101px; }
+    .flyout .contentContainer ul {
+      text-decoration: none !important;
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; }
+      .flyout .contentContainer ul li {
+        cursor: pointer;
+        color: black;
+        list-style-type: none;
+        margin-top: 24px;
+        font-family: AvenirNext-Bold;
+        font-size: 14px; }
 
-.App-intro {
-  font-size: large; }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg); }
-  to {
-    transform: rotate(360deg); } }
+.header {
+  width: 100vw;
+  height: 118px; }
+  .header .menu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-top: 48px;
+    margin-left: 20px; }
+  .header .logo {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 24px;
+    width: 108px;
+    height: 69px; }
