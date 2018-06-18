@@ -1,0 +1,41 @@
+.flyout{
+    width: 217px;
+
+    .flyoutClose{
+        z-index: 99;
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        margin-left: 20px;
+        margin-top: 48px;
+    }
+
+    .contentContainer{
+        position: absolute;
+
+        .logo{
+            margin-left: 51px;
+            margin-top: 94px;
+            width: 116px;
+            height: 101px;
+        }
+
+        ul{
+            text-decoration: none !important;
+            margin-top: 24px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            li{
+                cursor: pointer;
+                color: black;
+                list-style-type: none;
+                margin-top: 24px;
+                font-family: AvenirNext-Bold;
+                font-size: 14px;
+            }
+        }
+    }
+}
