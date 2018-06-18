@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Drawer from '@material-ui/core/Drawer';
+import { FlyOut } from './FlyOut';
 
 export default class Home extends React.Component{
     constructor(){
@@ -10,15 +11,13 @@ export default class Home extends React.Component{
     };
 
     toggleDrawer = () => {
-        this.setState({drawerStatus: true})
+        this.setState({drawerStatus: !this.state.drawerStatus})
     }
 
     render(){
-        console.log(this.state.drawerStatus)
         return(
-            <div>
-                <div className='btn' onClick={this.state.toggleDrawer}>click for flyout</div>
-                <Drawer open={this.state.drawerStatus}>this is the drawer</Drawer>
+            <div className='home'>
+
             </div>
         );
     }
