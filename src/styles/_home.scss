@@ -1,18 +1,3 @@
-@mixin paragraph{
-    width: 80%;
-    font-family: AvenirNext-Regular;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 12px;
-}
-
-@mixin Titles{
-    font-family: AvenirNext-Heavy;
-    color: #ce1225;
-    font-size: 36px;
-    text-align: center;
-}
-
 @mixin center{
     display: flex;
     justify-content: center;
@@ -20,20 +5,13 @@
     align-items: center;
 }
 
-@mixin placeholder{
-    width: 100%;
-    height: 210px;
-    background-color: pink;
-    margin-top: 7px;
-}
-
 .home{
 
     .picContainer{
+        @include center;
         width: 100vw;
         height: 210px;
         background-color: pink;
-        @include center;
 
         p{
             font-family: AvenirNext-Heavy;
@@ -44,9 +22,9 @@
     }
 
     .buttons{
+        @include center;
         width: 100vw;
         height: 113px;
-        @include center;
         flex-direction: row;
         color: white;
         font-family: AvenirNext-Bold;
@@ -59,38 +37,32 @@
 
     .one{
         @include center;
+        margin-top: 40px;
 
         .title{
-            @include Titles;
+            font-family: AvenirNext-Heavy;
+            color: #ce1225;
+            font-size: 36px;
+            text-align: center;
         }
 
         p{
-            @include paragraph;
+            width: 80%;
+            font-family: AvenirNext-Regular;
+            font-size: 14px;
+            text-align: center;
+            margin-top: 12px;
         }
 
         .placeholder{
-            @include placeholder();
-        }
-    }
-
-    .two{
-        @include center;
-
-        .title{
-            @include Titles;
-            margin-top: 50px;
+            width: 100%;
+            height: 210px;
+            background-color: pink;
+            margin-top: 7px;
         }
 
-        p{
-            @include paragraph();
-        }
-
-        .placeholder{
-            @include placeholder;
-        }
-
-        img{
-            margin-top: 10px;
+        .cateringBtn{
+            margin-top: 20px;
         }
     }
 }

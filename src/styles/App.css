@@ -3,25 +3,25 @@
   text-decoration: none; }
 
 .home .picContainer {
-  width: 100vw;
-  height: 210px;
-  background-color: pink;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  width: 100vw;
+  height: 210px;
+  background-color: pink; }
   .home .picContainer p {
     font-family: AvenirNext-Heavy;
     font-size: 32px;
     color: white; }
 
 .home .buttons {
-  width: 100vw;
-  height: 113px;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
+  height: 113px;
   flex-direction: row;
   color: white;
   font-family: AvenirNext-Bold;
@@ -33,7 +33,8 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  margin-top: 40px; }
   .home .one .title {
     font-family: AvenirNext-Heavy;
     color: #ce1225;
@@ -50,31 +51,8 @@
     height: 210px;
     background-color: pink;
     margin-top: 7px; }
-
-.home .two {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center; }
-  .home .two .title {
-    font-family: AvenirNext-Heavy;
-    color: #ce1225;
-    font-size: 36px;
-    text-align: center;
-    margin-top: 50px; }
-  .home .two p {
-    width: 80%;
-    font-family: AvenirNext-Regular;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 12px; }
-  .home .two .placeholder {
-    width: 100%;
-    height: 210px;
-    background-color: pink;
-    margin-top: 7px; }
-  .home .two img {
-    margin-top: 10px; }
+  .home .one .cateringBtn {
+    margin-top: 20px; }
 
 .flyout {
   width: 217px; }

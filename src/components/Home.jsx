@@ -21,18 +21,17 @@ export const Home = () => {
                 <div className='placeholder'></div>
                 <p>{Messages.polyPlates}</p>
             </div>
-            <div className='two'>
+            <div className='one'>
                 <p className='title'>OHANA</p>
                 <p>{Messages.family}</p>
                 <div className='placeholder'></div>
             </div>
-            <div className='two'>
+            <div className='one'>
                 <p className='title'>Luau</p>
                 <p>{Messages.crowd}</p>
                 <div className='placeholder'></div>
-                <img src={cateringBtn} alt='cateringBtn'/>
+                <img src={cateringBtn} alt='cateringBtn' className='cateringBtn'/>
             </div>
-
         </div>
     )
 }
