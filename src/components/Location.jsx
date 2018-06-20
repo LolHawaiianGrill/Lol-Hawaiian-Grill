@@ -1,11 +1,7 @@
 import * as React from 'react';
 
-export default class Location extends React.Component {
-    constructor(props){
-        super(props);
-    }
-    render(){
-        return <div>
+export const Location = (props) => {
+        return (<div>
             <h1>Locations</h1>
             <h4>Sandy, Utah</h4>
             <p> 
@@ -33,5 +29,4 @@ export default class Location extends React.Component {
             <p> Check our Facebook page for the food truck's schedule and locations.</p>
             <button>Check the Schedule</button>
                 </div>
-    }
-}
+    )}
