@@ -5,6 +5,7 @@ import { Home } from '../components/Home';
 import { About } from '../components/About';
 import { Location } from '../components/Location';
 
+
 export const Router = () => (
     <Switch>
         <Route path='/' component={Home} exact />
