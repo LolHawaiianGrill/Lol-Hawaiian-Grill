@@ -2,14 +2,57 @@
   margin: 0px;
   text-decoration: none; }
 
-.home .btn {
-  width: 200px;
-  height: 50px;
-  background-color: pink;
-  z-index: 99; }
+.home .picContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 210px;
+  background-color: pink; }
+  .home .picContainer p {
+    font-family: AvenirNext-Heavy;
+    font-size: 32px;
+    color: white; }
 
-.home .drawer {
-  width: 217px; }
+.home .buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 113px;
+  flex-direction: row;
+  color: white;
+  font-family: AvenirNext-Bold;
+  text-decoration: none; }
+  .home .buttons img {
+    padding: 5px; }
+
+.home .one {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px; }
+  .home .one .title {
+    font-family: AvenirNext-Heavy;
+    color: #ce1225;
+    font-size: 36px;
+    text-align: center; }
+  .home .one p {
+    width: 80%;
+    font-family: AvenirNext-Regular;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 12px; }
+  .home .one .placeholder {
+    width: 100%;
+    height: 210px;
+    background-color: pink;
+    margin-top: 7px; }
+  .home .one .cateringBtn {
+    margin-top: 30px; }
 
 .flyout {
   width: 217px; }

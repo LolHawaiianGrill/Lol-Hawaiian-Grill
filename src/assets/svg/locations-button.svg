@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="153" height="40" viewBox="0 0 153 40">
+    <defs>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#E82A4D"/>
+            <stop offset="100%" stop-color="#CE1225"/>
+        </linearGradient>
+        <rect id="b" width="145" height="32" rx="6"/>
+        <filter id="a" width="109%" height="140.6%" x="-4.5%" y="-17.2%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(4 3)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <rect width="144" height="31" x=".5" y=".5" fill="url(#c)" stroke="#FFFFFD" stroke-linejoin="square" rx="6"/>
+        </g>
+        <text fill="#FFFFFD" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" opacity=".95" transform="translate(4 3)">
+            <tspan x="36" y="21">Locations</tspan>
+        </text>
+    </g>
+</svg>
