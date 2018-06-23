@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="294" viewBox="0 0 320 294">
+    <defs>
+        <linearGradient id="a" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#EEE" stop-opacity="0"/>
+            <stop offset="100%" stop-color="#CE1225"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#a)" d="M0 0h320v294H0z"/>
+        <text fill="#1F1F1F" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold">
+            <tspan x="19.314" y="200">Menu</tspan>
+        </text>
+        <text fill="#1F1F1F" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold">
+            <tspan x="88.478" y="200">Locations</tspan>
+        </text>
+        <text fill="#1F1F1F" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold">
+            <tspan x="143.004" y="160">Home</tspan>
+        </text>
+        <text fill="#1F1F1F" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold">
+            <tspan x="178.492" y="200">Catering</tspan>
+        </text>
+        <text fill="#1F1F1F" font-family="AvenirNext-Bold, Avenir Next" font-size="12" font-weight="bold">
+            <tspan x="264.464" y="200">About</tspan>
+        </text>
+        <text fill="#1F1F1F" font-family="AvenirNext-Regular, Avenir Next" font-size="10">
+            <tspan x="105.13" y="248">© LOL HAWAIIAN GRILL</tspan>
+        </text>
+        <text fill="#1F1F1F" font-family="AvenirNext-Regular, Avenir Next" font-size="10">
+            <tspan x="25.635" y="267">Site design and development by Steve Skola and John Doe </tspan>
+        </text>
+    </g>
+</svg>

@@ -52,7 +52,23 @@
     background-color: pink;
     margin-top: 7px; }
   .home .one .cateringBtn {
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-bottom: 50px; }
+
+.home .socialMedia {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 213px; }
+  .home .socialMedia p {
+    color: #1f1f1f;
+    font-family: AvenirNext-Regular;
+    font-size: 14px;
+    text-align: center; }
+  .home .socialMedia img {
+    padding: 15px; }
 
 .flyout {
   width: 217px; }
@@ -100,3 +116,43 @@
     margin-top: 24px;
     width: 108px;
     height: 69px; }
+
+.footerContainer {
+  height: 295px;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(238, 238, 238, 0), #ce1225); }
+  .footerContainer p {
+    color: #1f1f1f;
+    font-family: AvenirNext-Regular;
+    font-size: 14px;
+    text-align: center; }
+  .footerContainer .socialMedia {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px; }
+    .footerContainer .socialMedia img {
+      padding: 15px; }
+  .footerContainer .navBtns {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .footerContainer .navBtns .nav {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 40px; }
+  .footerContainer .copyWrite {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .footerContainer .copyWrite p {
+      font-family: AvenirNext-Regular;
+      font-size: 10px;
+      color: #1f1f1f; }
