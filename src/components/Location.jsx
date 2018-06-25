@@ -1,32 +1,39 @@
 import * as React from 'react';
+import { Messages } from '../constants/location';
+import building from '../assets/images/LocationsBuiilding.svg';
+import truck from '../assets/images/LocationsTruck.svg';
 
 export const Location = (props) => {
-        return (<div>
-            <h1>Locations</h1>
-            <h4>Sandy, Utah</h4>
-            <p> 
-                9460 S Union Sqare #100 <br></br>
-                Sandy, UT 84070
-            </p>
-            <h4>801-748-3542</h4>
+        return (
+        <div className='location'>
+            <img src={building} alt="Location Building"/>
+            <h1>{Messages.header}</h1>
+            <h4>{Messages.location1}</h4>
+                <p> 
+                {Messages.address1}
+                    <br></br>
+                {Messages.cityState1}
+                </p>
+            <h4>{Messages.phone1}</h4>
             <p>
-                Monday      11am-8pm
+                {Messages.Mon}    {Messages.hours}
                 <br></br>
-                Tuesday     11am-8pm
+                {Messages.Tues}    {Messages.hours}
                 <br></br>
-                Wednesday   11am-8pm
+                {Messages.Wed}   {Messages.hours}
                 <br></br>
-                Thursday    11am-8pm
+                {Messages.Thurs}    {Messages.hours}
                 <br></br>
-                Friday      11am-8pm
+                {Messages.Fri}      {Messages.hours}
                 <br></br>
-                Saturday    11am-7pm
+                {Messages.Sat}    {Messages.SatHours}
                 <br></br>
-                Sunday      Closed
+                {Messages.Sun}      {Messages.closed}
             </p>
-            <button>Get Directions</button>
-            <h4>Food Truck</h4>
-            <p> Check our Facebook page for the food truck's schedule and locations.</p>
-            <button>Check the Schedule</button>
+            <button>{Messages.directions}</button>
+            <img src={truck} alt="Food Truck"/>
+            <h4>{Messages.food}</h4>
+            <p> {Messages.paragraph1}</p>
+            <button>{Messages.schedule}</button>
                 </div>
     )}
