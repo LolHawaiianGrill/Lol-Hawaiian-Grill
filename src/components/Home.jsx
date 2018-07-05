@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import {Messages} from '../constants/home';
 import locationsBtn from '../assets/svg/locations-button.svg';
 import menuBtn from '../assets/svg/menu-button.svg';
+import facebook from '../assets/svg/facebook.svg';
+import instagram from '../assets/svg/instagram.svg';
 import cateringBtn from '../assets/svg/catering-info-button.svg';
 
 export const Home = () => {
@@ -27,10 +29,17 @@ export const Home = () => {
                 <div className='placeholder'></div>
             </div>
             <div className='one'>
-                <p className='title'>Luau</p>
+                <p className='title'>LUAU</p>
                 <p>{Messages.crowd}</p>
                 <div className='placeholder'></div>
                 <img src={cateringBtn} alt='cateringBtn' className='cateringBtn'/>
+            </div>
+            <div className='socialMedia'>
+                <p className='connect'>Connect With Us</p>
+                <div>
+                    <img src={facebook} alt='fb'/>
+                    <img src={instagram} alt='insta'/>
+                </div>
             </div>
         </div>
     )
