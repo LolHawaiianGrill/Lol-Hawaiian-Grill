@@ -38,7 +38,7 @@ export const Location = (props) => {
                 <br></br>
             </div>
             <div className='hours'>
-            {Messages.hours}
+            {Messages.closed}
             <br></br>
             {Messages.hours}
             <br></br>
