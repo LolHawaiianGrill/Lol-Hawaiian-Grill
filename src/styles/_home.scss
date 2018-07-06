@@ -63,6 +63,27 @@
 
         .cateringBtn{
             margin-top: 30px;
+            margin-bottom: 50px;
+        }
+    }
+
+    .socialMedia{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 213px;
+
+        p{
+            color: #1f1f1f;
+            font-family: AvenirNext-Regular;
+            font-size: 14px;
+            text-align: center;
+        }
+
+        img{
+            padding: 15px;
         }
     }
 }
