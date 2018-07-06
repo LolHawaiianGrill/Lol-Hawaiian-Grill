@@ -9,38 +9,96 @@ export const Catering = () =>  {
             <img className='catering-food' src={catering} alt={"catering-food"}/>
                 <img className='order' src={order} alt={"catering"}/>
             <br></br>
-            <div className='menu'>
-            <p> {Messages.small}</p><p>{Messages.large}</p>
+            <div className='labels-container'>
+             <p>{Messages.small}</p><p>{Messages.large}</p>
+             <br></br>
+             <br></br>
+             </div>
+             <div className='sizes-container'>
+             <p className='size'>{Messages.smallSz}</p><p className='size'>{Messages.largeSz}</p>
             </div>
+            <div className='menu-container'>
             <div className='menu'>
-            <p> {Messages.smallSz}</p><p>{Messages.largeSz}</p>
+                 {Messages.item1 }
+                <br></br>
+                <br></br>
+                 {Messages.item2 }
+                 <br></br>
+                 <br></br>
+                 {Messages.item3 } 
+                 <br></br>
+                 <br></br>
+                 {Messages.item4 } 
+                 <br></br>
+                 <br></br>
+                 {Messages.item5 } 
+                 <br></br>
+                 <br></br>
+                 {Messages.item6 } 
+                 <br></br>
+                 <br></br>
+                 {Messages.item7 } 
+                 <br></br>
+                 <br></br>
+                 {Messages.item8 } 
+                 <br></br>
+                 <br></br>
+                 {Messages.item9 } 
             </div>
-            <div className='menu'>
-                <p> {Messages.item1 }</p><p>{Messages.item1sm}</p><p> {Messages.item1lg}</p>
-                </div>
-                <div className='menu'>
-                <p> {Messages.item2 } </p><p>{Messages.item2sm} </p><p>{Messages.item2lg}</p>
-                </div>
-                <div className='menu'>
-                <p> {Messages.item3 }</p><p> {Messages.item3sm}</p><p> {Messages.item3lg}</p>
-                </div>
-                <div className='menu'>
-                <p> {Messages.item4 }</p><p> {Messages.item4sm} </p><p>{Messages.item4lg}</p>
-                </div>
-                <div className='menu'>
-                <p> {Messages.item5 }</p><p> {Messages.item5sm}</p><p> {Messages.item5lg}</p>
-                </div>
-                <div className='menu'>
-                <p> {Messages.item6 }</p><p> {Messages.item6sm}</p><p>{Messages.item6lg}</p>
-                </div>
-                <div className='menu'>
-                <p> {Messages.item7 } </p><p>{Messages.item7sm}</p><p>{Messages.item7lg}</p>
-                </div>
-                <div className='menu'>
-                <p> {Messages.item8 } </p><p>{Messages.item8sm}</p><p>{Messages.item8lg}</p>
-                </div>
-                <div className='menu'>
-                <p> {Messages.item9 } </p><p>{Messages.item9sm}</p><p>{Messages.item9sm}</p>
+            <div className='small-prices'>
+            {Messages.item1sm} 
+            <br></br>
+            <br></br>
+            {Messages.item2sm} 
+            <br></br>
+            <br></br>
+            {Messages.item3sm} 
+            <br></br>
+            <br></br>
+            {Messages.item4sm} 
+            <br></br>
+            <br></br>
+            {Messages.item5sm} 
+            <br></br>
+            <br></br>
+            {Messages.item6sm}
+            <br></br>
+            <br></br>
+            {Messages.item7sm}
+            <br></br>
+            <br></br>
+            {Messages.item8sm}
+            <br></br>
+            <br></br>
+            {Messages.item9sm}
+            </div>
+            <div className='large-prices'>
+            {Messages.item1lg}
+            <br></br>
+            <br></br>
+            {Messages.item2lg}
+            <br></br>
+            <br></br>
+            {Messages.item3lg}
+            <br></br>
+            <br></br>
+            {Messages.item4lg}
+            <br></br>
+            <br></br>
+            {Messages.item5lg}
+            <br></br>
+            <br></br>
+            {Messages.item6lg}
+            <br></br>
+            <br></br>
+            {Messages.item7lg}
+            <br></br>
+            <br></br>
+            {Messages.item8lg}
+            <br></br>
+            <br></br>
+            {Messages.item9sm}
+            </div>
             </div>
             <br></br>
             <h1 className='footer'>{Messages.footer} </h1>    
