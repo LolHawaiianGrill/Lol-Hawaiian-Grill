@@ -142,19 +142,14 @@
   justify-content: center;
   align-items: center;
 }
-.about h1.about-text {
+.about .about-text {
   color: #fffffd;
   font-size: 32px;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
   font-weight: 900;
-  width: 119px;
-  height: 44px;
+  width: 126px;
+  height: 33px;
   margin: -135px auto 100px;
-}
-.about p {
-  color: #292929;
-  font-size: 14px;
-  padding: 5px 10px;
 }
 .about .footer {
   color: #ce1225;
@@ -170,8 +165,15 @@
   height: 218px;
 }
 .about .mahalo {
-  width: 171px;
-  height: 98px;
+  width: 167px;
+  height: 76px;
+}
+.about .about-container {
+  color: #292929;
+  font-size: 14px;
+  padding: 5px 10px;
+  width: 320px;
+  margin-top: 20px;
 }
 
 .footerContainer {
