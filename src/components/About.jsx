@@ -1,11 +1,12 @@
 import * as React from 'react';
-import family from '../../src/assets/images/ToleafoaFamily.svg';
+import family from '../../src/assets/images/ToleafoaFamily.jpg';
+import mahalo from '../assets/images/mahalo-plenny.png'
 import { Messages } from '../constants/about';
 
 export const About = () =>  {
         return (
         <div className="about">
-            <img src={family} alt="Toleafoa Family"/>
+            <img className='family' src={family} alt="Toleafoa Family"/>
             <h1 className="about-text">{ Messages.header }</h1>
                 <p> {Messages.paragraph1 }</p>
             <br></br>
@@ -17,6 +18,6 @@ export const About = () =>  {
             <br></br>
                 <p>{ Messages.paragraph5 } </p>
             <br></br>
-            <h1 className='footer'> { Messages.footer }</h1>    
+            <img className='mahalo' src={mahalo} alt="mahalo"/>
         </div>
     )}
