@@ -1,5 +1,33 @@
 export class Messages {
-    static header = 'Catering';
+    static small = 'Small';
+    static smallSz = '20 Servings';
+    static large = 'Large';
+    static largeSz = '40 Servings';
     static item1 = 'BBQ Chicken';
+    static item1sm = '$75';
+    static item1lg = '$150';
+    static item2 = 'Kalua Pork';
+    static item2sm = '$90';
+    static item2lg = '$180';
+    static item3 = 'Katsu Chicken';
+    static  item3sm = '$90';
+    static item3lg = '$180';
+    static item4 = 'Garlic Shrimp';
+    static item4sm = '$99';
+    static item4lg = '$198';
+    static item5 = 'Kalbi Beef Ribs';
+    static item5sm = '$99';
+    static item5lg = '$198';
+    static item6 = 'Rice';
+    static item6sm = '$30';
+    static item6lg = '$55';
+    static item7 = 'Mac Salad';
+    static item7sm = '$45';
+    static item7lg = '$75';
+    static item8 = 'Guava Cake';
+    static item8sm = '$60';
+    static item9lg = '$120';
+    static item9 = 'Faalifu Taro*';
+    static item9sm = '--*'
     static footer = '*Taro prices fluctuate by season; call us to confirm the current price.'
 }
