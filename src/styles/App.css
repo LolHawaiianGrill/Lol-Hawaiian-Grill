@@ -166,11 +166,9 @@
 }
 
 .location {
-  display: flex;
-  flex-direction: column;
+  width: 320px;
   margin: auto;
   padding: 10px;
-  align-items: center;
 }
 .location h1 {
   color: #fffffd;
@@ -184,11 +182,11 @@
 }
 .location .directions {
   height: 40px;
-  width: 145px;
+  width: 153px;
 }
 .location .schedule {
-  width: 185px;
-  height: 32px;
+  width: 193px;
+  height: 40px;
 }
 .location .image {
   width: 320px;
@@ -196,8 +194,23 @@
   margin-bottom: 20px;
 }
 .location .fb {
-  width: 32px;
-  height: 32px;
+  margin-left: 15px;
+  width: 36px;
+  height: 36px;
+}
+.location .schedule-container {
+  align-items: center;
+  display: flex;
+}
+.location .days {
+  width: 76px;
+}
+.location .hours {
+  margin-left: 10px;
+  width: 77px;
+}
+.location .hours-container {
+  display: flex;
 }
 
 .footerContainer {

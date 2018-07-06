@@ -20,22 +20,39 @@ export const Location = (props) => {
                 <br></br>
             <h4>{Messages.phone1}</h4>
             <br></br>
-            <p>
-                {Messages.Mon}    {Messages.hours}
+            <div className='hours-container'>
+            <div className='days'>
+                {Messages.Mon}    
                 <br></br>
-                {Messages.Tues}    {Messages.hours}
+                {Messages.Tues}    
                 <br></br>
-                {Messages.Wed}   {Messages.hours}
+                {Messages.Wed}   
                 <br></br>
-                {Messages.Thurs}    {Messages.hours}
+                {Messages.Thurs}    
                 <br></br>
-                {Messages.Fri}      {Messages.hours}
+                {Messages.Fri}      
                 <br></br>
-                {Messages.Sat}    {Messages.SatHours}
+                {Messages.Sat}    
                 <br></br>
-                {Messages.Sun}      {Messages.closed}
+                {Messages.Sun}      
                 <br></br>
-            </p>
+            </div>
+            <div className='hours'>
+            {Messages.hours}
+            <br></br>
+            {Messages.hours}
+            <br></br>
+            {Messages.hours}
+            <br></br>
+            {Messages.hours}
+            <br></br>
+            {Messages.hours}
+            <br></br>
+            {Messages.SatHours}
+            <br></br>
+            {Messages.closed}
+            </div>
+            </div>
             <br></br>
             <img className='directions' src={getDirections} alt='get directions'/>
             <br></br>
