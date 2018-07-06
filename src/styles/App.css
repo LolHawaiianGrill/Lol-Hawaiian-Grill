@@ -170,6 +170,7 @@
   flex-direction: column;
   margin: auto;
   padding: 10px;
+  align-items: center;
 }
 .location h1 {
   color: #fffffd;
@@ -181,14 +182,22 @@
   margin: -135px auto 100px;
   justify-content: center;
 }
-.location button {
-  background: #ce1225;
-  color: #fffffd;
-  border: white solid 1px;
-  width: 50vw;
-  border-radius: 4px;
-  font-size: 20px;
-  padding: 5px;
+.location .directions {
+  height: 40px;
+  width: 145px;
+}
+.location .schedule {
+  width: 185px;
+  height: 32px;
+}
+.location .image {
+  width: 320px;
+  height: 218px;
+  margin-bottom: 20px;
+}
+.location .fb {
+  width: 32px;
+  height: 32px;
 }
 
 .footerContainer {
