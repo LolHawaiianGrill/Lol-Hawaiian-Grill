@@ -8,7 +8,7 @@ export const Footer = () => {
             <div className='navBtns'>
                 <Link to='/'><p>Home</p></Link>
                 <div className='nav'>
-                    <p>Menu</p>
+                    <Link to='/Menu'><p>Menu</p></Link>
                     <Link to='/Location'><p>Locations</p></Link>
                     <p>Catering</p>
                     <Link to='/about'><p>About</p></Link>

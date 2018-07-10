@@ -18,20 +18,26 @@ export const Home = () => {
                 <Link to='/'><img src={locationsBtn} alt='locations'/></Link>
             </div>
             <div className='one'>
-                <p className='title'>ALOHA</p>
-                <p>{Messages.satisfy}</p>
-                <div className='placeholder'></div>
+            <div className='titleContainer'>
+                    <p className='title'>ALOHA</p>
+                    <p>{Messages.satisfy}</p>
+                </div>
+                <img style={{width: '100%', height: '210px;'}} src={require('../assets/images/Poly Plate.svg')} alt='img'/>
                 <p>{Messages.polyPlates}</p>
             </div>
             <div className='one'>
-                <p className='title'>OHANA</p>
-                <p>{Messages.family}</p>
-                <div className='placeholder'></div>
+                <div className='titleContainer'>
+                    <p className='title'>OHANA</p>
+                    <p>{Messages.family}</p>
+                </div>
+                <img style={{width: '100%', height: '210px;'}} src={require('../assets/images/Food Truck Shaka.svg')} alt='img'/>
             </div>
             <div className='one'>
-                <p className='title'>LUAU</p>
-                <p>{Messages.crowd}</p>
-                <div className='placeholder'></div>
+            <div className='titleContainer'>
+                    <p className='title'>LUAU</p>
+                    <p>{Messages.crowd}</p>
+                </div>
+                <img src={require('../assets/images/Catering.svg')} alt='img' style={{width: '100%', height: '210px;'}}/>
                 <img src={cateringBtn} alt='cateringBtn' className='cateringBtn'/>
             </div>
             <div className='socialMedia'>
