@@ -57,10 +57,68 @@ export const menu = [
 
 export const sandwhiches = [
     {
-        title: '',
-        mini: 'Mini',
-        regular: 'Regular',
-        description: ''
+        title: 'Kalua Pork Sandwhich',
+        mini: '',
+        regular: '8.99',
+        description: 'Kalua Pork on a roasted sesame seed bun'
 
+    }
+]
+
+export const sides = [
+    {
+        title: 'Chips',
+        regular: '1.00'
+    },
+    {
+        title: 'Katsu Sauce',
+        regular: '1.00'
+    },
+    {
+        title: 'Rice',
+        regular: '1.00'
+    },
+    {
+        title: 'Mac Salad',
+        regular: '1.00'
+    },
+    {
+        title: 'Guava Cake',
+        regular: '2.99'
+    },
+    {
+        title: 'Chips',
+        regular: '1.00'
+    },
+    {
+        title: 'BBQ Chicken',
+        regular: '4.50'
+    },
+    {
+        title: 'Kalua Pork',
+        regular: '4.50'
+    },
+    {
+        title: 'Garlic Shrimp',
+        regular: '4.50'
+    },
+    {
+        title: 'Katsu Chicken',
+        regular: '4.50'
+    },
+    {
+        title: 'Kalbi Beef Ribs',
+        regular: '4.50'
+    }
+]
+
+export const drinks = [
+    {
+        title: 'Regular (24oz)',
+        regular: '1.99'
+    },
+    {
+        title: 'Small (20oz)',
+        regular: '1.59'
     }
 ]
