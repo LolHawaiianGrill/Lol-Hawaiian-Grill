@@ -1,18 +1,113 @@
 import React from 'react';
-// import ExpansionPanel from '@material-ui/core/ExpansionPanel';
-// import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
-// import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
-// import Typography from '@material-ui/core/Typography';
-// import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-// import {} from '../constants/expandedMenu.js';
+import ExpansionPanel from '@material-ui/core/ExpansionPanel';
+import ExpansionPanelSummary from '@material-ui/core/ExpansionPanelSummary';
+import ExpansionPanelDetails from '@material-ui/core/ExpansionPanelDetails';
+import Typography from '@material-ui/core/Typography';
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 
-export const ExpandedMenu = () => {
+import PropTypes from "prop-types";
+import { withStyles } from "@material-ui/core/styles";
+import Tuesday from '../assets/images/Bento.svg';
+import Friday from '../assets/images/Poke.svg';
+// import Thursday from '../assets/images/Thursday Poly Plate.svg'
+// import {} from '../constants/expandedMenu.js';
+// ç
+const styles = theme => ({
+    expansion: {
+        backgroundImage: `url(${Tuesday})`,
+        backgroundSize: 'cover',
+        width: "100%"
+    },
+    head: {
+        height: '84px'
+    },
+    text: {
+        color: 'white',
+        fontSize: '32px',
+        fontFamily: 'AvenirNext-Heavy',
+        display: 'table-cell'
+        // verticalAlign: 'middle',
+        // horizontalAlign: 'middle'
+    },
+    body: {
+        background: 'white'
+    },
+    wednesdayExpans:{
+        backgroundImage: `url(${Tuesday})`,
+        backgroundSize: 'cover',
+    },
+    thursdayExpans: {
+        backgroundImage: `url(${Tuesday})`,
+        backgroundSize: 'cover',
+        width: "100%"
+    },
+    fridayExpans: {
+        backgroundImage: `url(${Friday})`,
+        backgroundSize: 'cover',
+        width: "100%"
+    }
+});
+
+const ExpandedMenu = (props) => {
+    const { classes } = props;
     return(
         <div>
-            this is expanded menu
+            <ExpansionPanel className={classes.expansion}>
+                <ExpansionPanelSummary className={classes.head} expandIcon={<ExpandMoreIcon style={{color: 'white'}}/>}>
+                <Typography className={classes.text}>TUESDAY</Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails className={classes.body}>
+                <Typography className={classes.body}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget.
+                </Typography>
+                </ExpansionPanelDetails>
+            </ExpansionPanel>
+
+            <ExpansionPanel className={classes.wednesdayExpans}>
+                <ExpansionPanelSummary className={classes.head} expandIcon={<ExpandMoreIcon style={{color: 'white'}}/>}>
+                <Typography className={classes.text}>WEDNESDAY</Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails className={classes.body}>
+                <Typography className={classes.body}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget.
+                </Typography>
+                </ExpansionPanelDetails>
+            </ExpansionPanel>
+
+            <ExpansionPanel className={classes.thursdayExpans}>
+                <ExpansionPanelSummary className={classes.head} expandIcon={<ExpandMoreIcon style={{color: 'white'}}/>}>
+                <Typography className={classes.text}>THURSDAY</Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails className={classes.body}>
+                <Typography className={classes.body}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget.
+                </Typography>
+                </ExpansionPanelDetails>
+            </ExpansionPanel>
+
+            <ExpansionPanel className={classes.fridayExpans}>
+                <ExpansionPanelSummary className={classes.head} expandIcon={<ExpandMoreIcon style={{color: 'white'}}/>}>
+                <Typography className={classes.text}>FRIDAY</Typography>
+                </ExpansionPanelSummary>
+                <ExpansionPanelDetails className={classes.body}>
+                <Typography className={classes.body}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
+                    sit amet blandit leo lobortis eget.
+                </Typography>
+                </ExpansionPanelDetails>
+            </ExpansionPanel>
         </div>
     )
 }
+
+ExpandedMenu.propTypes = {
+    classes: PropTypes.object.isRequired
+};
+
+export default withStyles(styles)(ExpandedMenu);
 
 // export default class ExpandedMenu extends React.Component {
 //     constructor(){

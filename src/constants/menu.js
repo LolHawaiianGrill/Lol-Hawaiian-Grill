@@ -87,10 +87,6 @@ export const sides = [
         regular: '2.99'
     },
     {
-        title: 'Chips',
-        regular: '1.00'
-    },
-    {
         title: 'BBQ Chicken',
         regular: '4.50'
     },

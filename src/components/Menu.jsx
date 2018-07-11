@@ -1,14 +1,14 @@
 import React from 'react';
 import orderTakeout from '../assets/svg/order-takeout-button.svg';
 import {Messages, menu, sandwhiches, sides, drinks} from '../constants/menu';
-import {ExpandedMenu} from './expandedMenu.jsx'
-import menuImg from '../assets/images/menu thumbnail.jpg';
+import ExpandedMenu from './expandedMenu.jsx'
+// import menuImg from '../assets/images/menu thumbnail.jpg';
 
 export const Menu = () => {
     return(
         <div className='menu'>
             <div className='imgPlaceholder'>
-                <img src={menuImg} alt=''/>
+                {/* <img src={menuImg} alt='' style={{width: '100%', height: '218px'}}/> */}
                 <p>MENU</p>
             </div>
             <div className='takeoutBtns'>

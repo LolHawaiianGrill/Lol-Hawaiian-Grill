@@ -165,20 +165,22 @@
   .menu .imgPlaceholder {
     width: 100%;
     height: 210px;
+    background-image: url("../assets/images/menu thumbnail.jpg");
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center; }
     .menu .imgPlaceholder p {
       color: #fffffd;
       font-family: AvenirNext-Heavy;
-      size: 32px; }
+      size: 5em !important; }
   .menu .takeoutBtns {
-    height: 100px;
+    height: 120px;
     display: flex;
     justify-content: space-around;
     align-items: center; }
   .menu .plates {
-    height: 200px;
+    height: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;

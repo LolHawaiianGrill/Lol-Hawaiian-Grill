@@ -11,25 +11,26 @@
     .imgPlaceholder{
         width: 100%;
         height: 210px;
-        // background-image: url('../assets/svg/menu thumbnail.jpg');
+        background-image: url('../assets/images/menu thumbnail.jpg');
+        background-size: cover;
         @include center;
 
         p{
             color: #fffffd;
             font-family: AvenirNext-Heavy;
-            size: 32px;
+            size: 5em !important;
         }
     }
 
     .takeoutBtns{
-        height: 100px;
+        height: 120px;
         display:flex;
         justify-content: space-around;
         align-items: center;
     }
 
     .plates{
-        height: 200px;
+        height: 150px;
         display: flex;
         flex-direction: column;
         align-items: center;
