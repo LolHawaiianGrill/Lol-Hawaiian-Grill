@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="153" height="72" viewBox="0 0 153 72">
+    <defs>
+        <linearGradient id="c" x1="50%" x2="50%" y1="0%" y2="100%">
+            <stop offset="0%" stop-color="#E82A4D"/>
+            <stop offset="100%" stop-color="#CE1225"/>
+        </linearGradient>
+        <rect id="b" width="145" height="64" rx="6"/>
+        <filter id="a" width="109%" height="120.3%" x="-4.5%" y="-8.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(4 3)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <rect width="144" height="63" x=".5" y=".5" fill="url(#c)" stroke="#FFFFFD" stroke-linejoin="square" rx="6"/>
+        </g>
+        <text fill="#FFFFFD" font-family="AvenirNext-Bold, Avenir Next" font-size="16" font-weight="bold" transform="translate(4 3)">
+            <tspan x="16" y="28">Order Takeout</tspan>
+        </text>
+        <text fill="#FFFFFD" font-family="Triomphe-Bold, Triomphe" font-size="10" font-weight="bold" letter-spacing=".5" transform="translate(4 3)">
+            <tspan x="38.153" y="51">CALL </tspan> <tspan x="69.847" y="51" letter-spacing="-.28">L</tspan> <tspan x="75.182" y="51">O</tspan> <tspan x="84.247" y="51">L</tspan>
+        </text>
+        <path fill="#FFFFFD" fill-rule="nonzero" d="M112.633 52.26a.626.626 0 0 1-.194.55l-1.843 1.818c-.084.092-.192.17-.326.234a1.352 1.352 0 0 1-.395.124l-.083.007a1.899 1.899 0 0 1-.18.007c-.176 0-.46-.03-.853-.09-.392-.06-.873-.206-1.44-.44-.569-.234-1.213-.586-1.934-1.054-.72-.468-1.487-1.11-2.3-1.928a15.12 15.12 0 0 1-1.608-1.817 12.94 12.94 0 0 1-1.025-1.605 8.612 8.612 0 0 1-.582-1.336 7.05 7.05 0 0 1-.264-1.032 3.39 3.39 0 0 1-.055-.682c.01-.165.014-.257.014-.276.018-.128.06-.259.124-.392.065-.133.144-.241.236-.324l1.843-1.831a.612.612 0 0 1 .444-.193.52.52 0 0 1 .318.103.96.96 0 0 1 .236.255l1.483 2.796a.667.667 0 0 1 .069.482.857.857 0 0 1-.236.44l-.679.675a.23.23 0 0 0-.048.09.338.338 0 0 0-.02.103c.036.193.12.413.249.66.11.221.281.49.512.806.231.317.56.682.984 1.095.416.423.785.75 1.109.985.323.234.593.406.81.516.218.11.384.177.5.2l.173.034a.332.332 0 0 0 .09-.02.232.232 0 0 0 .09-.048l.79-.8a.852.852 0 0 1 .582-.22c.157 0 .281.028.374.083h.014l2.674 1.57c.194.12.31.27.347.455z"/>
+    </g>
+</svg>
