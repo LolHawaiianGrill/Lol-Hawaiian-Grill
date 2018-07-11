@@ -37,7 +37,7 @@ export const Home = () => {
                     <p className='title'>LUAU</p>
                     <p>{Messages.crowd}</p>
                 </div>
-                <img src={require('../assets/images/Catering.svg')} alt='img' style={{width: '100%', height: '210px;'}}/>
+                <img src={require('../assets/images/bitmap@2x.jpg')} alt='img' style={{width: '100%', height: '210px;'}}/>
                 <img src={cateringBtn} alt='cateringBtn' className='cateringBtn'/>
             </div>
             <div className='socialMedia'>
