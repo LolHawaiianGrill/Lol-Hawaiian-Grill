@@ -18,7 +18,7 @@ export const FlyOut = (props) => {
                         <Link to='/Menu'><li>Menu/Order</li></Link>
                         <Link to='location'><li>Locations</li></Link>
                         <Link to='/about'><li>About</li></Link>
-                        <li>Catering</li>
+                        <Link to='/Catering'><li>Catering</li></Link>
                     </ul>
                 </div>
             </div>
