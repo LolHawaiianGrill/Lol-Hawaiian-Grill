@@ -222,6 +222,54 @@
       font-size: 10px;
       padding-bottom: 10px; }
 
+.catering {
+  width: 320px;
+  margin: auto;
+  display: flex;
+  flex-direction: column; }
+  .catering .order {
+    width: 145px;
+    height: 64px; }
+  .catering img.order {
+    margin: auto auto 20px auto; }
+  .catering .catering-food {
+    width: 320px;
+    height: 218px;
+    margin-bottom: 10px; }
+  .catering h1 {
+    font-size: 14px;
+    color: #1f1f1f;
+    width: 283px;
+    height: 38px;
+    padding: 0px 20px; }
+  .catering .menu {
+    width: 105px;
+    margin-right: 85px; }
+  .catering .small-prices {
+    width: 30px;
+    margin-right: 25px; }
+  .catering .large-prices {
+    width: 50px; }
+  .catering .menu-container {
+    display: flex;
+    font-size: 14px;
+    font-weight: 900;
+    color: #1f1f1f;
+    padding: 20px; }
+  .catering p {
+    display: inline;
+    font-size: 14px;
+    color: #1f1f1f;
+    font-weight: 900;
+    margin-right: 25px; }
+  .catering .labels-container {
+    margin-left: 190px; }
+  .catering .size {
+    font-size: 12px;
+    color: #acacac; }
+  .catering .sizes-container {
+    margin-left: 165px; }
+
 .menu {
   width: 100%;
   height: auto; }
