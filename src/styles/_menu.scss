@@ -1,0 +1,86 @@
+@mixin center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    width: 100%;
+    height: auto;
+
+    .imgPlaceholder{
+        width: 100%;
+        height: 210px;
+        // background-image: url('../assets/svg/menu thumbnail.jpg');
+        @include center;
+
+        p{
+            color: #fffffd;
+            font-family: AvenirNext-Heavy;
+            size: 32px;
+        }
+    }
+
+    .takeoutBtns{
+        height: 100px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .plates{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .platesHeader{
+            font-family: AvenirNext-Heavy;
+            font-size: 36px;
+            color: #ce1225;
+        }
+
+        .subHeader{
+            font-family: AvenirNext-Regular;
+            font-size: 14px;
+            color: #1f1f1f;
+        }
+    }
+
+    .platesMenu{
+
+        .menuItem{
+            height: 80px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+
+            .topRow{
+                padding: 10px;
+                font-family: AvenirNext-Bold;
+                font-size: 14px;
+                color: #1f1f1f;
+                display: flex;
+                justify-content: space-between;
+
+                .prices{
+                    width: 50%;
+                    display: flex;
+                    justify-content: space-around;
+
+                    p{
+                        padding-right: 10px;
+                    }
+                }
+            }
+
+            .description{
+                color: #acacac;
+                font-family: AvenirNext-Regular;
+                font-size: 12px;
+                padding-left: 10px;
+            }
+        }
+    }
+}

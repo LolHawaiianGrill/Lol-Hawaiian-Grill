@@ -1,0 +1,51 @@
+.day{
+
+    .header{
+        width: 100%;
+        height: 84px;
+        background-color: pink;
+        margin-top: 2px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        
+        p{
+            font-family: AvenirNext-Heavy;
+            font-size: 32px;
+            color: #fffffd;
+            text-shadow: rgba(0, 0, 0, 0.5);
+        }
+    }
+
+    #tuesdayInfo{
+        display: none;
+        width: 100%;
+        height: 300px;
+        // background-color: orange;
+    }
+    #wednesdayInfo{
+        display: none;
+        width: 100%;
+        height: 300px;
+        // background-color: orange;
+    }
+    #thursdayInfo{
+        display: none;
+        width: 100%;
+        height: 300px;
+        // background-color: orange;
+    }
+    #fridayInfo{
+        display: none;
+        width: 100%;
+        height: 300px;
+        // background-color: orange;
+    }
+    #saturdayInfo{
+        display: none;
+        width: 100%;
+        height: 300px;
+        // background-color: orange;
+    }
+}

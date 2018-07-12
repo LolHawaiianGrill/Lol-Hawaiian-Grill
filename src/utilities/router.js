@@ -5,6 +5,7 @@ import { Home } from '../components/Home';
 import { About } from '../components/About';
 import { Location } from '../components/Location';
 import { Catering } from '../components/Catering';
+import { Menu } from '../components/Menu';
 
 
 export const Router = () => (
@@ -13,5 +14,6 @@ export const Router = () => (
         <Route path='/about' component={About} />
         <Route path='/Location' component={Location} />
         <Route path='/Catering' component={Catering}/>
+        <Route path='/Menu' component={Menu} />
     </Switch>
 );

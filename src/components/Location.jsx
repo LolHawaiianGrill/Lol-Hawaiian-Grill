@@ -1,13 +1,15 @@
 import * as React from 'react';
 import { Messages } from '../constants/location';
-import building from '../assets/images/LocationsBuiilding.svg';
-import truck from '../assets/images/LocationsTruck.svg';
+import building from '../assets/images/locations.jpg';
+import truck from '../assets/images/foodTruck.jpg';
+import getDirections from '../assets/images/getDirections.png';
+import checkSchedule from '../assets/images/check-the-schedule-button.png';
+import facebook from '../assets/svg/facebook.svg'; 
 
 export const Location = (props) => {
         return (
         <div className='location'>
-            <img src={building} alt="Location Building"/>
-            <h1>{Messages.header}</h1>
+            <img className='image' src={building} alt="Location Building"/>
             <h4>{Messages.location1}</h4>
             <br></br>
                 <p> 
@@ -18,32 +20,52 @@ export const Location = (props) => {
                 <br></br>
             <h4>{Messages.phone1}</h4>
             <br></br>
-            <p>
-                {Messages.Mon}    {Messages.hours}
+            <div className='hours-container'>
+            <div className='days'>
+                {Messages.Mon}    
                 <br></br>
-                {Messages.Tues}    {Messages.hours}
+                {Messages.Tues}    
                 <br></br>
-                {Messages.Wed}   {Messages.hours}
+                {Messages.Wed}   
                 <br></br>
-                {Messages.Thurs}    {Messages.hours}
+                {Messages.Thurs}    
                 <br></br>
-                {Messages.Fri}      {Messages.hours}
+                {Messages.Fri}      
                 <br></br>
-                {Messages.Sat}    {Messages.SatHours}
+                {Messages.Sat}    
                 <br></br>
-                {Messages.Sun}      {Messages.closed}
+                {Messages.Sun}      
                 <br></br>
-            </p>
+            </div>
+            <div className='hours'>
+            {Messages.closed}
             <br></br>
-            <button>{Messages.directions}</button>
+            {Messages.hours}
             <br></br>
-            <img src={truck} alt="Food Truck"/>
+            {Messages.hours}
+            <br></br>
+            {Messages.hours}
+            <br></br>
+            {Messages.hours}
+            <br></br>
+            {Messages.SatHours}
+            <br></br>
+            {Messages.closed}
+            </div>
+            </div>
+            <br></br>
+            <img className='directions' src={getDirections} alt='get directions'/>
+            <br></br>
+            <img className='image' src={truck} alt="Food Truck"/>
             <br></br>
             <h4>{Messages.food}</h4>
             <br></br>
             <p> {Messages.paragraph1}</p>
             <br></br>
-            <button>{Messages.schedule}</button>
+            <div className='schedule-container'>
+                <img className='schedule' src={checkSchedule} alt="Food Truck"/>
+                <img className='fb' src={facebook} alt='facebook'/>
+            </div>
             <br></br>
                 </div>
     )}
