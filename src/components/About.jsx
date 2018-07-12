@@ -17,6 +17,6 @@ export const About = () =>  {
             <br></br>
                 <p>{ Messages.paragraph5 } </p>
             <br></br>
-            <h1> { Messages.footer }</h1>    
+            <h1 className='footer'> { Messages.footer }</h1>    
         </div>
     )}

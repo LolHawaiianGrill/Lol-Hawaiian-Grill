@@ -123,6 +123,69 @@
     width: 108px;
     height: 69px; }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .about h1.about-text {
+    color: #fffffd;
+    font-size: 32px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+    width: 119px;
+    height: 44px;
+    margin: -135px auto 100px; }
+  .about p {
+    color: #292929;
+    font-size: 14px;
+    padding: 5px 10px; }
+  .about .footer {
+    color: #ce1225;
+    font-size: 36px;
+    width: 171px;
+    height: 98px;
+    text-align: center;
+    font-weight: 900;
+    margin: 0px auto; }
+
+.location {
+  width: 320px;
+  margin: auto;
+  padding: 10px; }
+  .location h1 {
+    color: #fffffd;
+    font-size: 32px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    font-weight: 900;
+    width: 193px;
+    height: 44px;
+    margin: -135px auto 100px;
+    justify-content: center; }
+  .location .directions {
+    height: 40px;
+    width: 153px; }
+  .location .schedule {
+    width: 193px;
+    height: 40px; }
+  .location .image {
+    width: 320px;
+    height: 218px;
+    margin-bottom: 20px; }
+  .location .fb {
+    margin-left: 15px;
+    width: 36px;
+    height: 36px; }
+  .location .schedule-container {
+    align-items: center;
+    display: flex; }
+  .location .days {
+    width: 76px; }
+  .location .hours {
+    margin-left: 10px;
+    width: 77px; }
+  .location .hours-container {
+    display: flex; }
+
 .footerContainer {
   color: #1f1f1f !important;
   text-decoration: none !important;
