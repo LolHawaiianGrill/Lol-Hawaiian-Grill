@@ -3,9 +3,16 @@
     text-decoration: none;
 }
 
+.app{
+    background-image : url('../assets/svg/Background.svg');
+}
+
 @import 'home';
 @import 'flyout';
 @import 'header';
 @import 'about';
 @import 'location';
 @import 'footer';
+@import 'catering';
+@import 'menu';
+@import 'expandedMenu';

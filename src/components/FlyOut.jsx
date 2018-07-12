@@ -15,7 +15,7 @@ export const FlyOut = (props) => {
                 <div className='contentContainer'>
                     <img  className='logo' src={logo} alt='logo' />
                     <ul>
-                        <li>Menu/Order</li>
+                        <Link to='/Menu'><li>Menu/Order</li></Link>
                         <Link to='location'><li>Locations</li></Link>
                         <Link to='/about'><li>About</li></Link>
                         <li>Catering</li>

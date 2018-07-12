@@ -1,0 +1,61 @@
+.catering {
+    width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    .order{
+        width: 145px;
+        height: 64px;
+    }
+    img.order {
+        margin: auto auto 20px auto;
+    }
+    .catering-food{
+        width: 320px;
+        height: 218px;
+        margin-bottom: 10px;
+    }
+    h1{
+        font-size: 14px;
+        color: #1f1f1f;
+        width: 283px;
+        height: 38px;
+        padding: 0px 20px;
+    }
+    .menu{
+      width: 105px;
+      margin-right: 85px;
+    }
+    .small-prices{
+        width: 30px;
+        margin-right: 25px;
+    }
+    .large-prices{
+        width: 50px; 
+    }
+
+    .menu-container {
+        display: flex;
+        font-size: 14px;
+        font-weight: 900;
+        color: #1f1f1f;
+        padding: 20px;
+    }
+    p {
+        display: inline;
+        font-size: 14px;
+        color: #1f1f1f;
+        font-weight: 900;
+        margin-right: 25px;
+    }
+    .labels-container{
+        margin-left: 190px;
+    }
+    .size {
+        font-size: 12px;
+        color: #acacac;
+    }
+    .sizes-container {
+        margin-left: 165px;
+    }
+}

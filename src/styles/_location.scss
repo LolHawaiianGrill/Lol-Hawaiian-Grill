@@ -1,3 +1,47 @@
 .location {
-    
+    width: 320px;
+    margin: auto;
+    padding: 10px;
+    h1 {
+        color: #fffffd;
+        font-size: 32px;
+        text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+        font-weight: 900;
+        width: 193px;
+        height: 44px;
+        margin: -135px auto 100px;
+        justify-content: center;
+    }
+    .directions{
+        height: 40px;
+        width: 153px;
+    }
+    .schedule{
+        width: 193px;
+        height: 40px;
+    }
+    .image{
+        width: 320px;
+        height: 218px;
+        margin-bottom: 20px;
+    }
+    .fb {
+        margin-left: 15px;
+        width: 36px;
+        height: 36px;
+    }
+    .schedule-container{
+        align-items: center;
+        display: flex;
+    }
+    .days{
+        width: 76px;
+    }
+    .hours{
+        margin-left: 10px;
+        width: 77px;
+    }
+    .hours-container{
+        display: flex;
+    }
 }
